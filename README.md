@@ -8,3 +8,9 @@ This Node.js script reads a text file containing names in "First Last" format, c
 4. Create a text file named `join.txt` containing names in the format "First Last", with each name on a new line.
 5. Run the script using node `index.js`.
 6. Check the generated file `converted_names.txt` for the converted names.
+
+# Notes:
+- Ensure the input file (`join.txt`) exists and is correctly formatted.
+- The script assumes each name in `join.txt` is on a separate line.
+- Adjust the domain (`@ba.com`) as needed for your use case.
+- Error handling is included for file operations.
